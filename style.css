@@ -1,0 +1,264 @@
+body {
+    margin-top: 10px;
+    background: #1954a2 url(images/body_background.jpg) left top;
+}
+
+#container {
+    width: 960px;
+}
+
+td {
+    color: #000000;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+a {
+    color: #0000ff;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #0000ff;
+    text-decoration: none;
+}
+
+
+/* header area start */
+
+#header {
+    width: 960px;
+    background: #1954a2 url(images/header_background.jpg) right top;
+    height: 186px;
+}
+
+.header_img {
+    float: left;
+    margin-right: 10px;
+}
+
+#utility_nav {
+    width: 450px;
+    float: right;
+    text-align: right;
+    padding-top: 6px;
+}
+
+
+/* topnav area start */
+
+#topnav {
+    width: 960px;
+    background: #1954a2 url(images/topnav_background.jpg) right top;
+    height: 30px;
+}
+
+a.topnav_last {
+    margin-right: 24px !important;
+}
+
+
+/* main area start */
+
+#main {
+    width: 960px;
+    background: #1954a2 url(images/content_area_background.jpg) repeat-y right top;
+    position: relative;
+}
+
+#leftnav {
+    width: 223px;
+    padding-top: 0px;
+    padding-bottom: 200px;
+    background: #1954a2 url(images/leftnav_background.jpg) repeat-y left top;
+}
+
+#nav {
+    width: 223px;
+    background: #1954a2 url(images/nav_background.jpg) no-repeat right top;
+    padding: 33px 0px 229px 0px
+}
+
+#leftnav_btm {
+    position: absolute;
+    left: 0px;
+    bottom: -1px;
+    background: url(images/leftnav_btm_background.jpg) no-repeat left top;
+    width: 223px;
+    height: 184px;
+}
+
+html>body #leftnav_btm {
+    bottom: 0px;
+}
+
+#content_area {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background: url(images/main_background.jpg) no-repeat right top;
+}
+
+
+/* footer area start */
+
+#footer {
+    width: 960px;
+    background: #1954a2 url(images/footer_background.jpg) no-repeat right top;
+    height: 95px;
+}
+
+.footer_left {
+    display: block;
+    float: left;
+    text-align: left;
+    margin-top: 27px;
+    margin-left: 34px;
+}
+
+.footer_right {
+    display: block;
+    float: right;
+    text-align: right;
+    margin-top: 17px;
+    margin-right: 33px;
+}
+
+.footer_right span {
+    display: block;
+    color: #434344;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+#thomas_info {
+    width: 960px;
+    text-align: right;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#thomas_info span {
+    margin-right: 12px;
+}
+
+
+/* heading styles */
+
+h1 {
+    color: #fcf5f5;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 0px;
+    padding-bottom: 25px;
+}
+
+h2 {
+    color: #2779e6;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+h3 {
+    color: #434449;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+/* image styles */
+
+.img01 {
+    border: 1px #000000 solid;
+}
+
+.img02 {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.img04 {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.img03 {
+    border: 1px #000000 solid;
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.phone_img {
+    margin-right: 3px;
+}
+
+.email_img {
+    margin-left: 13px;
+    margin-right: 5px;
+}
+
+.home_head {
+    color: #2c84ce;
+    font-size: 17px;
+    font-weight: normal;
+    padding: 0px 0px 35px 27px;
+}
+
+.home_head span {
+    color: #fcf5f5;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.bucket_link_plc_005 a img {
+    display: block !important;
+    margin-left: -22px !important;
+    margin-bottom: -6px !important;
+}
+
+.bucket_link_plc_006 a img {
+    margin-bottom: 6px;
+}
+
+ul.bucket_content {
+    list-style-type: none;
+    padding: 0px;
+    margin: 5px 0px 30px 0px;
+}
+
+ul.bucket_content li {
+    background-image: url(images/bull.jpg);
+    background-position: 31px 4px;
+    background-repeat: no-repeat;
+    line-height: 11px;
+    margin: 0;
+    padding: 0 5px 0 37px !important;
+}
+
+.bucket_background {
+    width: 323px;
+    background: url(images/bucket_bg.jpg) no-repeat left bottom;
+}
+
+.bucket_background1 {
+    width: 210px;
+    background: url(images/bucket_bg1.jpg) no-repeat left bottom;
+}
+
+.writewood_btm_tbl {
+    background: url(images/bucket_mid.jpg) repeat-y 18px top;
+}
+
+.writewood_btm_tbl td {
+    padding-left: 18px;
+    padding-top: 0px;
+}
+
+
+/* miscellaneous */
